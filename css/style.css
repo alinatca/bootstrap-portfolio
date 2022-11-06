@@ -1,5 +1,7 @@
 html body {
     background-color: rgba(206, 208, 200);
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
 
 }
 
@@ -57,63 +59,11 @@ border: 3px solid black;
     display: flex;
     flex-direction: column;
     margin-left: 40px;
-    
-    
+       
 }   
 
-.jumbotron-text {
-    margin-top:10%; 
-    left:10px;
-}
-.center {
-  width: 180px;
-  height: 60px;
-  position: absolute;
-  
-}
 
-.lead {
-font-style: italic;
-}
 
-.btn {
-  width: 180px;
-  height: 60px;
-  cursor: pointer;
-  background: transparent;
-  outline: none;
-  transition: 1s ease-in-out;
-  
-}
-
-svg {
-  position: absolute;
-  left: 0;
-  top: 0;
-  fill: none;
-  stroke: #000;
-  stroke-dasharray: 150 480;
-  stroke-dashoffset: 150;
-  transition: 1s ease-in-out;
-  
-}
-
-.btn:hover {
-  transition: 1s ease-in-out;
-  background: white;
-}
-
-.btn:hover svg {
-  stroke-dashoffset: -480;
- 
-}
-
-.btn span {
-  color: #000000;
-  font-size: 18px;
-  font-weight: 100;
-  
-}
 
 
 
@@ -151,20 +101,41 @@ svg {
 
 /* Footer section */
 footer {
-  margin: 40px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  height: 150px;
+  background-color: #ffffff;
 }
 
 .content.left {
   display: flex;
   flex-direction: row; 
   justify-content: flex-start;
+  
 }
 .contact-right {
   display: flex;
   flex-direction: row; 
   justify-content: flex-end;
   
+  
+}
+
+
+/* skills section */
+#skills {
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+  
+}
+
+#skills h2 {
+  text-align: center;
+}
+
+.web-developmen, .customer-service, .problem-solving {
+padding: 2%;
+font-weight: 600;
 }
