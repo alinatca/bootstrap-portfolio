@@ -100,27 +100,66 @@ border: 3px solid black;
 
 
 /* Footer section */
-footer {
+#footer-section {
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
+  /* flex-wrap: nowrap; */
   height: 150px;
   background-color: #ffffff;
 }
 
-.content.left {
+.contact-left {
   display: flex;
   flex-direction: row; 
   justify-content: flex-start;
+  padding-right: 3%;
+  font-size: 20px;
   
 }
 .contact-right {
   display: flex;
   flex-direction: row; 
   justify-content: flex-end;
-  
+  padding-right: 3%;
+  font-size: 20px;
   
 }
+
+.contact-left p {
+  text-decoration: none;
+  padding-right: 3%;
+  font-size: 20px;
+}
+
+
+.contact-right p {
+  text-decoration: none;
+  padding-right: 3%;
+  font-size: 20px;
+  padding-left: 3%;
+}
+
+
+footer a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#000111; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
+
+.skills-resume {
+  border: 3px solid black;
+  
+}
+
+
+
+
+
 
 
 /* skills section */
@@ -137,5 +176,25 @@ footer {
 
 .web-developmen, .customer-service, .problem-solving {
 padding: 2%;
-font-weight: 600;
+
 }
+
+.fa-check, .fa-thumbs-up, .fa-mobile {
+ color: white; 
+ 
+}
+
+#footer-section i {
+  vertical-align: middle;
+  padding: 3%;
+  
+}
+
+.fa-2xl {
+  font-size: 3em;
+ 
+}
+#skills h2 {
+  padding-top: 20px;
+}
+
