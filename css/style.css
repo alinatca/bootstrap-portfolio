@@ -1,0 +1,124 @@
+html body {
+    background-color: rgba(206, 208, 200);
+
+}
+
+
+.navbar {
+background-color: #E2E3DE;
+color: #000000;
+
+}
+
+.navbar a {
+    color: #000000;
+    font-size: 20px;
+    padding-right: 10px;
+
+    
+}
+
+.navbar-brand {
+    font-size: 3.25rem;     
+    padding: 0 50px;
+    text-align: right;
+    font-size: xx-large;
+    margin: 0px;
+    letter-spacing: 10px;
+    
+}
+
+.brand-item {
+font-size: 24px;
+}
+
+
+.nav-link {
+    padding-right: 15px;
+}
+
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+  }
+
+.contact-item {
+border: 3px solid black;
+}
+
+/* Jumbotron section */
+
+.jumbotron {
+    background: url("../images/background-jumbotron2.jpg");
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    
+    
+}   
+
+.jumbotron-text {
+    margin-top:10%; 
+    left:10px;
+}
+.center {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+  
+}
+
+.lead {
+font-style: italic;
+}
+
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  transition: 1s ease-in-out;
+  
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #000;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+  
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: white;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+ 
+}
+
+.btn span {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 100;
+  
+}
+
+
+
+/* ABOUT ME SECTION */
+
+.class {
+    display: flex;
+}
