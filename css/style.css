@@ -9,7 +9,9 @@ html body {
 .navbar {
 background-color: #E2E3DE;
 color: #000000;
-
+border-top: 7px solid white;
+border-left: 7px solid white;
+border-right: 7px solid white;
 }
 
 .navbar a {
@@ -52,13 +54,16 @@ border: 3px solid black;
 
 .jumbotron {
     background: url("../images/background-jumbotron2.jpg");
-    height: 800px;
+    height: 900px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
     margin-left: 40px;
+    border-bottom: 7px solid white;
+    border-left: 7px solid white;
+    border-right: 7px solid white;
        
 }   
 
@@ -79,7 +84,7 @@ border: 3px solid black;
 .about-content {
   display: flex;
   flex-direction: column;
-  margin: 2%;
+  margin: 1%;
   padding: 0 120px;
 
   
@@ -170,6 +175,7 @@ a:hover {
   display: flex;
   flex-direction: row;
   margin: 40px;
+  padding: 40px 0;
   
 }
 
@@ -202,12 +208,20 @@ padding: 2%;
   padding-top: 20px;
 }
 
+.skills-h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+
+}
+
 
 /* work section */
 
 #work {
   margin: 60px;
-  padding: 100px 0;
+  padding: 40px 0;
+ 
 }
 
 
@@ -215,7 +229,7 @@ padding: 2%;
 .card-title {
     margin-bottom: 0.75rem;
     text-align: center;
-    padding-top: 12%;
+    padding-top: 10%;
 }
 
 .card-text {
@@ -227,4 +241,9 @@ padding: 2%;
   
 display: flex;
 justify-content: center;
+}
+
+.work-title {
+  text-align: center;
+  padding-bottom: 3%;
 }
