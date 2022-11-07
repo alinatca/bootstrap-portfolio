@@ -4,21 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://kit.fontawesome.com/c2f543ac58.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
+    
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/c2f543ac58.js"
+      crossorigin="anonymous"
+    ></script>
+        
+    <!-------- Bootstrap --------->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
       integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
       crossorigin="anonymous"
-    />  
-
+    />
     <title>Alina Tudor</title>
   </head>
+
+
+
   <body>
     <!----------------------------- Nav bar ------------------------------>
     <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid ">
+      <div class="container-fluid">
         <a class="navbar-brand brand-item" href="#">AT</a>
         <button
           class="navbar-toggler"
@@ -44,200 +55,265 @@
             </li>
             <li class="nav-item contact-item">
               <a class="nav-link">Contact</a>
-            </li>            
+            </li>
           </ul>
         </div>
       </div>
     </nav>
     <!----------------------------- END ------------------------------>
 
-    <!----------------------------- Jumbotron ------------------------------>
+    <!----------------------------- Jumbotron ------------------------>
     <div class="jumbotron container-fluid">
       <div class="jumbotron-text">
-      <h1 class="display-4">HELLO! I'M ALINA</h1>
-      <p class="lead"> Welcome to my website!</p>      
-      <p>I'm a front end developer. Let's get this party started!</p>
-    </div>
-       <div class="container">
-    <div class="center">
-      <p class="lead">
-        <a class="btn btn-outline-dark btn-lg btn-light" href="#" role="button">Learn more</a>
-      </p>
-    </div>
-  </div>
+        <h1 class="display-4">HELLO! I'M ALINA</h1>
+        <p class="lead">Welcome to my website!</p>
+        <p>I'm a front end developer. </p>
+      </div>
+      <div class="container">
+        <div class="center">
+          <p class="lead">
+            <a
+              class="btn btn-outline-dark btn-lg btn-light button-jumbo"
+              href="#work"
+              role="button"
+              >Let's get this party started!</a
+            >
+          </p>
+        </div>
+      </div>
     </div>
 
     <!----------------------------- END ------------------------------>
 
-        <!----------------------------- Work Section ------------------------------>
+    <!--------------------------- Latest Projects Section ----------------------->
     <section id="work">
+
       <h2 class="display-4 work-title">Latest Projects</h2>
+
+      <div class="container-fluid">
+       <!-- First row -->
+        <div class="row">
+
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body text-center">
+                <div class="image-card">
+                <img
+                  src="images/card-5.jpg"
+                  class="card-img-top"
+                  alt="words stay tuned"
+                />
+              </div>
+                <h5 class="card-title">Horiseon</h5>
+                <p class="card-text">My first challenge was a refactoring project. Nailed it! </p>
+                <a href="https://alinatca.github.io/horiseon/" class="btn btn-outline-dark btn-light button-work "
+                  >Check this out</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body text-center">
+                <div class="image-card">
+                <img
+                  src="images/card-1.jpg"
+                  class="card-img-top"
+                  alt="words stay tuned"
+                />
+              </div>
+                <h5 class="card-title">Something amazing coming up</h5>
+                <p class="card-text">
+                  Currently busy working on some AWESOME projects  
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-outline-dark"
+                  >Coming soon</a
+                >
+              </div>
+            </div>
+          </div>
       
-    <div class="container-fluid">
-
-<div class="row">
-
-    <div class="col-sm-4">
-    <div class="card">
-      <div class="card-body">
-        <img src="images/card-5.jpg" class="card-img-top" alt="words stay tuned">
-        <h5 class="card-title">Horiseon</h5>
-        <p class="card-text">A refactoring project</p>
-        <a href="#" class="btn btn-outline-dark btn-light">Check this out</a>
-      </div>
-    </div>
-  </div>
-
-    <div class="col-sm-4">
-      <div class="card">
-        <div class="card-body">
-          <img src="images/card-1.jpg" class="card-img-top" alt="words stay tuned">
-          <h5 class="card-title">Something amazing coming up</h5>
-          <p class="card-text">With supporting text below as a natural lead-in</p>
-          <a href="#" class="btn btn-outline-dark d-flex justify-content-center" >Go somewhere</a>
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="card-body text-center">
+                <div class="image-card">
+                <img
+                  src="images/card-5.jpg"
+                  class="card-img-top"
+                  alt="words stay tuned"
+                />
+              </div>
+                <h5 class="card-title">Something amazing coming up</h5>
+                <p class="card-text">
+                 Currently busy working on some AWESOME projects  
+                </p>
+                <a href="#" class="btn btn-outline-dark ">Coming soon</a>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="col-sm-4">
-        <div class="card">
-          <div class="card-body">
-            <img src="images/card-5.jpg" class="card-img-top" alt="words stay tuned">
-            <h5 class="card-title">Something amazing coming up</h5>
-            <p class="card-text">With supporting text below as a natural lead-in</p>
-            <a href="#" class="btn btn-outline-dark">Go somewhere</a>
+
+        <!-- Second Row -->
+        <div class="row">
+          <div class="col-sm-4 card-padding">
+            <div class="card"> 
+              <div class="card-body text-center">
+                <div class="image-card">
+                <img
+                  src="images/card-2.jpg"
+                  class="card-img-top"
+                  alt="words stay tuned"
+                />
+              </div>
+                <h5 class="card-title">Something amazing coming up</h5>
+                <p class="card-text">
+                  Currently busy working on some AWESOME projects  
+                </p>
+                <a href="#" class="btn btn-outline-dark">Coming soon</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 card-padding">
+            <div class="card">
+              <div class="card-body text-center">
+                <div class="image-card">
+                <img
+                  src="images/card-4.jpg"
+                  class="card-img-top"
+                  alt="words stay tuned"
+                />
+              </div>
+                <h5 class="card-title">Something amazing coming up</h5>
+                <p class="card-text">
+                  Currently busy working on some AWESOME projects  
+                </p>
+                <a href="#" class="btn btn-outline-dark">Coming soon</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 card-padding">
+            <div class="card">
+              <div class="card-body text-center">
+                <div class="image-card">
+                <img
+                  src="images/card-3.jpg"
+                  class="card-img-top"
+                  alt="words stay tuned"
+                />
+              </div>
+                <h5 class="card-title">Something amazing coming up</h5>
+                <p class="card-text">
+                  Currently busy working on some AWESOME projects  
+                </p>
+                <a href="#" class="btn btn-outline-dark">Coming soon</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-      <div class="row">
-      <div class="col-sm-4">
-        <div class="card">
-          <div class="card-body">
-            <img src="images/card-2.jpg" class="card-img-top" alt="words stay tuned">
-            <h5 class="card-title">Something amazing coming up</h5>
-            <p class="card-text">With supporting text below as a natural lead-in</p>
-            <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-4">
-        <div class="card">
-          <div class="card-body">
-            <img src="images/card-4.jpg" class="card-img-top" alt="words stay tuned">
-            <h5 class="card-title">Something amazing coming up</h5>
-            <p class="card-text">With supporting text below as a natural lead-in</p>
-            <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-4">
-        <div class="card">
-          <div class="card-body">
-            <img src="images/card-3.jpg" class="card-img-top" alt="words stay tuned">
-            <h5 class="card-title">Something amazing coming up</h5>
-            <p class="card-text">With supporting text below as a natural lead-in</p>
-            <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-          </div>
-        </div>
-      </div>
- 
-  </div>
-
-
-
-
+    </section>
+    <!----------------------------- END ------------------------------>
   
-</div>
 
-
-
-
-
-
-
-
-
-
-    </section>
-    <!----------------------------- END ------------------------------>
-    <!----------------------------- Skills Section ------------------------------>
-
-    <!----------------------------- END ------------------------------>
-
-    <!----------------------------- Contact Me Section ------------------------------>
+    <!--------------------- About Me Section ------------------------->
     <section class="about" id="about">
-      <div class="about-image">
-      <img src="images/profile-picture.jpg" alt="">
-    </div>
-    <div class="about-content">
-      <h2 class="display-4">ABOUT ME</h2>
-      <p>
-        My hobby is making jigsaw puzzles (I can't fit them in my house at the
-        moment), creating peace from chaos seems like a good hobby for a
-        developer, haha. It might sound boring, but it is really helping me see
-        the bigger picture and solve problems by breaking them into smaller
-        ones.</p>
-        <p>I started my career as an IT Helpdesk Analyst for a small company, where
-        I discovered my passion for creating amazing websites. I always knew I
-        wanted to do something on the computer but never thought about designing
-        a website that will make me happy. 
-      </p>
-    </div>
-    </section>
-
-    
-    <!----------------------------- END ------------------------------>
-
-
-    <section id="skills">
       
-      <div class="web-development">      
-        <i class="fa-solid fa-mobile fa-2xl"></i>
-      <h2 class="skills-h2">Web Development</h2>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, at dolores incidunt explicabo aliquam itaque voluptate magnam nostrum? Harum molestiae, aperiam iusto alias dolore veniam dolorum commodi cumque corrupti dolores.</p>
+      <div class="about-image">
+        <img src="images/profile-picture1.jpg" alt="" />
       </div>
 
+      <div class="about-content">
+        <h2 class="display-4">ABOUT ME</h2>
+        <p>
+          My hobby is making jigsaw puzzles (I can't fit them in my house at the
+          moment), creating peace from chaos seems like a good hobby for a
+          developer, haha. It might sound boring, but it is really helping me
+          see the bigger picture and solve problems by breaking them into
+          smaller ones.
+        </p>
+        <p>
+          I started my career as an IT Helpdesk Analyst for a small company,
+          where I discovered my passion for creating amazing websites. I always
+          knew I wanted to do something on the computer but never thought about
+          designing a website that will make me happy.
+        </p>
+      </div>
 
+    </section>
+
+    <!----------------------------- END ------------------------------>
+
+    <!---------------------- Skills section -------------------------->
+    <section id="skills">
+      <div class="web-development">
+        <i class="fa-solid fa-mobile fa-7x"></i>
+        <h2 class="skills-h2">Web Development</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, at
+          dolores incidunt explicabo aliquam itaque voluptate magnam nostrum?
+          Harum molestiae, aperiam iusto alias dolore veniam dolorum commodi
+          cumque corrupti dolores.
+        </p>
+      </div>
 
       <div class="customer-service">
-        <i class="fa-solid fa-thumbs-up fa-2xl"></i>
-      <h2 class=" skills-h2">Customer Service</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sed tempore voluptatum, praesentium id deleniti, officiis similique nam recusandae nobis itaque necessitatibus sit voluptatem obcaecati voluptates neque assumenda voluptatibus mollitia.</p>
+        <i class="fa-solid fa-thumbs-up fa-7x"></i>
+        <h2 class="skills-h2">Customer Service</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sed
+          tempore voluptatum, praesentium id deleniti, officiis similique nam
+          recusandae nobis itaque necessitatibus sit voluptatem obcaecati
+          voluptates neque assumenda voluptatibus mollitia.
+        </p>
       </div>
 
-
-    <div class="problem-solving">
-      <i class="fa-sharp fa-solid fa-check fa-2xl fa-align-center" ></i>
-      <h2 class="skills-h2">Probelm Solving</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis quidem ut at sunt unde veritatis, laborum omnis tenetur fugiat, repellat, qui maiores quam. Culpa temporibus maiores reiciendis corrupti quae maxime.</p>
-  </div>
-
-   
+      <div class="problem-solving">
+        <i class="fa-sharp fa-solid fa-check fa-7x fa-align-center"></i>
+        <h2 class="skills-h2">Probelm Solving</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+          quidem ut at sunt unde veritatis, laborum omnis tenetur fugiat,
+          repellat, qui maiores quam. Culpa temporibus maiores reiciendis
+          corrupti quae maxime.
+        </p>
+      </div>
     </section>
+  <!----------------------------- END ------------------------------>
 
+  <!------------------------- Footer Section ----------------------->
+    <footer id="footer-section" class="container-fluid">
+      
+      <div class="row">
+      <div class="col-lg-6 contact-left">
 
+        <div class="row">
+        <div class="col-lg-4">
+        <p><i class="fa-solid fa-square-phone"></i>0745 7458745</p></div>
+        <div class="col-sm-4">
+        <p><i class="fa-solid fa-envelope"></i>alina_tca@yahoo.com</p></div>
+      
+        </div>
+      </div>
 
-<footer id="footer-section">
+      <div class="col-lg-6 contact-right">
 
-<div class="contact-left">
+        <div class="row">
+        <div class="col-lg-4">
+        <p class="skills-resume"><a href=""> Resume</a></p></div>
+        <div class="col-lg-4">
+        <p><a href=""> GitHub</a></p></div>
+        <div class="col-lg-4">
+        <p><a href=""> LinkedIn</a></p></div>
+        </div>
+      </div>
+      </div>
 
- <p><i class="fa-solid fa-square-phone"></i>Phone</p>
- <p><i class="fa-solid fa-envelope"></i>Email</p>
-
-</div>
-
-<div class="contact-right">
-
-<p class="skills-resume"> <a href=""> Resume</a></p>
-<p> <a href=""> GitHub</a></p>
-<p> <a href=""> LinkedIn</a></p>
-
-</div>
-
-</footer>
-
-
+    </footer>
   </body>
 </html>
+  <!----------------------------- END ------------------------------>

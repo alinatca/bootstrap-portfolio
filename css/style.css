@@ -1,84 +1,136 @@
 html body {
-    background-color: rgba(206, 208, 200);
-    font-family: "Segoe UI", "Roboto","Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-
-
+  background-color: rgba(206, 208, 200);
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, "Noto Sans",
+    "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 
+
+
+/************* Navbar section ***********/
 .navbar {
-background-color: #E2E3DE;
-color: #000000;
-border-top: 7px solid white;
-border-left: 7px solid white;
-border-right: 7px solid white;
+  background-color: #e2e3de;
+  color: #000000;
+  border-top: 10px solid white;
+  border-left: 10px solid white;
+  border-right: 10px solid white;
 }
 
 .navbar a {
-    color: #000000;
-    font-size: 20px;
-    padding-right: 10px;
-
-    
+  color: #000000;
+  font-size: 20px;
+  padding-right: 10px;
 }
 
 .navbar-brand {
-    font-size: 3.25rem;     
-    padding: 0 50px;
-    text-align: right;
-    font-size: xx-large;
-    margin: 0px;
-    letter-spacing: 10px;
-    
+  font-size: 3.25rem;
+  padding: 0 50px;
+  text-align: right;
+  font-size: xx-large;
+  margin: 0px;
+  letter-spacing: 10px;
 }
 
 .brand-item {
-font-size: 24px;
+  font-size: 24px;
 }
-
 
 .nav-link {
-    padding-right: 15px;
+  padding-right: 15px;
 }
 
-.navbar-nav > li{
-    padding-left:30px;
-    padding-right:30px;
-  }
+.navbar-nav > li {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
 .contact-item {
-border: 3px solid black;
+  border: 3px solid black;
 }
 
 /* Jumbotron section */
 
 .jumbotron {
-    background: url("../images/background-jumbotron2.jpg");
-    height: 900px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    margin-left: 40px;
-    border-bottom: 7px solid white;
-    border-left: 7px solid white;
-    border-right: 7px solid white;
-       
-}   
+  background: url("../images/background-jumbotron2.jpg");
+  height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  border-bottom: 10px solid white;
+  border-left: 10px solid white;
+  border-right: 10px solid white;
+
+}
+.jumbotron-text {
+  margin-top:10%; 
+  margin-left: 5%;
+  position: relative;
+ 
+}
+
+.button-jumbo {
+  position: absolute;
+  top: 52%;
+  right: 75%;
+}
 
 
+/* work section */
 
+#work {
+  margin: 60px;
+  padding: 40px 0;
+}
+
+.card-title {
+  margin-bottom: 0.75rem;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.card-text {
+  text-align: center;
+  padding-bottom: 7%;
+}
+
+
+.work-title {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.image-card {
+overflow: hidden;
+}
+
+.image-card img {
+  object-fit: cover;
+  transition: 400ms;
+}
+
+.image-card:hover img {
+  transform: scale(1.2);
+}
+
+.card-padding {
+  padding-top: 2.5%
+}
 
 
 
 /* ABOUT ME SECTION */
 
-#about {  
+#about {
   display: flex;
   flex-direction: row;
   background-color: #ffffff;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .about-content {
@@ -86,88 +138,18 @@ border: 3px solid black;
   flex-direction: column;
   margin: 1%;
   padding: 0 120px;
-
-  
 }
 
 .about-content h2 {
-  /* border-bottom: solid 3px black; */
   text-align: center;
   margin: 40px;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-
-
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .about-content h2:before {
- 
 }
-
-
-/* Footer section */
-#footer-section {
-  display: flex;
-  flex-direction: column;
-  /* flex-wrap: nowrap; */
-  height: 150px;
-  background-color: #ffffff;
-}
-
-.contact-left {
-  display: flex;
-  flex-direction: row; 
-  justify-content: flex-start;
-  padding-right: 3%;
-  font-size: 20px;
-  
-}
-.contact-right {
-  display: flex;
-  flex-direction: row; 
-  justify-content: flex-end;
-  padding-right: 3%;
-  font-size: 20px;
-  
-}
-
-.contact-left p {
-  text-decoration: none;
-  padding-right: 3%;
-  font-size: 20px;
-}
-
-
-.contact-right p {
-  text-decoration: none;
-  padding-right: 3%;
-  font-size: 20px;
-  padding-left: 3%;
-}
-
-
-footer a {
-  color: #000000;
-  text-decoration: none;
-}
-
-a:hover {
-  color:#000111; 
-  text-decoration:none; 
-  cursor:pointer;  
-}
-
-.skills-resume {
-  border: 3px solid black;
-  
-}
-
-.row {
-  padding-bottom: 2%;
-}
-
-
-
-
 
 
 /* skills section */
@@ -176,33 +158,31 @@ a:hover {
   flex-direction: row;
   margin: 40px;
   padding: 40px 0;
-  
 }
 
 #skills h2 {
   text-align: center;
 }
 
-.web-development, .customer-service, .problem-solving {
-padding: 2%;
-
-
+.web-development,
+.customer-service,
+.problem-solving {
+  padding: 2%;
 }
 
-.fa-check, .fa-thumbs-up, .fa-mobile {
- color: white; 
- 
+.fa-check,
+.fa-thumbs-up,
+.fa-mobile {
+  color: white;
 }
 
 #footer-section i {
   vertical-align: middle;
   padding: 3%;
-  
 }
 
 .fa-2xl {
   font-size: 3em;
- 
 }
 #skills h2 {
   padding-top: 20px;
@@ -212,38 +192,39 @@ padding: 2%;
   font-size: 2.5rem;
   font-weight: 300;
   line-height: 1.2;
-
 }
 
-
-/* work section */
-
-#work {
-  margin: 60px;
-  padding: 40px 0;
+/* Footer section */
+#footer-section {
+  height: 150px;
+  background-color: #ffffff;
  
 }
 
 
-
-.card-title {
-    margin-bottom: 0.75rem;
-    text-align: center;
-    padding-top: 10%;
+.col-lg-4 {
+  width: 13%;
 }
 
-.card-text {
-  text-align: center;
-  padding-bottom: 7%;
+.contact-left {
 }
-
-.btn {
   
-display: flex;
-justify-content: center;
+.contact-right {
+ 
+  
 }
 
-.work-title {
-  text-align: center;
-  padding-bottom: 3%;
+.contact-left p {
+ 
 }
+
+.contact-right p {
+  
+
+}
+
+.skills-resume {
+  border: 3px solid black;
+}
+
+
