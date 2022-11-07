@@ -154,36 +154,31 @@ overflow: hidden;
 
 /* skills section */
 #skills {
-  display: flex;
-  flex-direction: row;
   margin: 40px;
   padding: 40px 0;
-}
-
-#skills h2 {
-  text-align: center;
 }
 
 .web-development,
 .customer-service,
 .problem-solving {
   padding: 2%;
+  text-align: center;
 }
+
+.web-development p,
+.customer-service p,
+.problem-solving p {
+  text-align: left;
+}
+
 
 .fa-check,
 .fa-thumbs-up,
 .fa-mobile {
   color: white;
+ 
 }
 
-#footer-section i {
-  vertical-align: middle;
-  padding: 3%;
-}
-
-.fa-2xl {
-  font-size: 3em;
-}
 #skills h2 {
   padding-top: 20px;
 }
@@ -194,8 +189,9 @@ overflow: hidden;
   line-height: 1.2;
 }
 
+
 /* Footer section */
-#footer-section {
+#contact {
   height: 150px;
   background-color: #ffffff;
  
@@ -227,4 +223,7 @@ overflow: hidden;
   border: 3px solid black;
 }
 
-
+.padding-0 {
+  padding-right:0;
+  padding-left:0;
+}

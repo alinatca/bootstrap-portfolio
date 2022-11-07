@@ -30,7 +30,7 @@
     <!----------------------------- Nav bar ------------------------------>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand brand-item" href="#">AT</a>
+        <a class="navbar-brand brand-item" href="#jumbotron">AT</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -45,16 +45,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About</a>
+              <a class="nav-link active" aria-current="page" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#work">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Work</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item contact-item">
-              <a class="nav-link">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -63,6 +63,7 @@
     <!----------------------------- END ------------------------------>
 
     <!----------------------------- Jumbotron ------------------------>
+    <section id="jumbotron">
     <div class="jumbotron container-fluid">
       <div class="jumbotron-text">
         <h1 class="display-4">HELLO! I'M ALINA</h1>
@@ -82,7 +83,7 @@
         </div>
       </div>
     </div>
-
+  </section>
     <!----------------------------- END ------------------------------>
 
     <!--------------------------- Latest Projects Section ----------------------->
@@ -99,7 +100,7 @@
               <div class="card-body text-center">
                 <div class="image-card">
                 <img
-                  src="images/card-5.jpg"
+                  src="images/card-6.jpg"
                   class="card-img-top"
                   alt="words stay tuned"
                 />
@@ -123,14 +124,14 @@
                   alt="words stay tuned"
                 />
               </div>
-                <h5 class="card-title">Something amazing coming up</h5>
+                <h5 class="card-title">My Portfolio</h5>
                 <p class="card-text">
-                  Currently busy working on some AWESOME projects  
+                  My first draft for a website using flexbox and grid 
                 </p>
                 <a
-                  href="#"
+                  href="https://alinatca.github.io/my-portfolio/"
                   class="btn btn-outline-dark"
-                  >Coming soon</a
+                  >Check this out</a
                 >
               </div>
             </div>
@@ -250,8 +251,11 @@
 
     <!---------------------- Skills section -------------------------->
     <section id="skills">
+      <div class="row">
+
+        <div class="col-lg-4">
       <div class="web-development">
-        <i class="fa-solid fa-mobile fa-7x"></i>
+        <i class="fa-solid fa-mobile fa-5x"></i>
         <h2 class="skills-h2">Web Development</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, at
@@ -260,9 +264,11 @@
           cumque corrupti dolores.
         </p>
       </div>
+    </div>
 
+<div class="col-lg-4">
       <div class="customer-service">
-        <i class="fa-solid fa-thumbs-up fa-7x"></i>
+        <i class="fa-solid fa-thumbs-up fa-5x"></i>
         <h2 class="skills-h2">Customer Service</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sed
@@ -271,9 +277,11 @@
           voluptates neque assumenda voluptatibus mollitia.
         </p>
       </div>
+    </div>
 
+      <div class="col-lg-4">
       <div class="problem-solving">
-        <i class="fa-sharp fa-solid fa-check fa-7x fa-align-center"></i>
+        <i class="fa-sharp fa-solid fa-check fa-5x fa-align-center"></i>
         <h2 class="skills-h2">Probelm Solving</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
@@ -282,11 +290,13 @@
           corrupti quae maxime.
         </p>
       </div>
+    </div>
+  </div>
     </section>
   <!----------------------------- END ------------------------------>
 
   <!------------------------- Footer Section ----------------------->
-    <footer id="footer-section" class="container-fluid">
+    <footer id="contact" class="container-fluid">
       
       <div class="row">
       <div class="col-lg-6 contact-left">
@@ -303,12 +313,12 @@
       <div class="col-lg-6 contact-right">
 
         <div class="row">
-        <div class="col-lg-4">
-        <p class="skills-resume"><a href=""> Resume</a></p></div>
-        <div class="col-lg-4">
-        <p><a href=""> GitHub</a></p></div>
-        <div class="col-lg-4">
-        <p><a href=""> LinkedIn</a></p></div>
+        <div class="col-sm-4 ">
+        <p class="skills-resume"><a href="">Resume</a></p></div>
+        <div class="col-sm-4" >
+        <p class="padding-0"><a href="">GitHub</a></p></div>
+        <div class="col-sm-4 ">
+        <p><a href="">LinkedIn</a></p></div>
         </div>
       </div>
       </div>
