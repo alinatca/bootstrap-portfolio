@@ -11,7 +11,9 @@ Using bootstrap was easier than creating a website from scratch with flex and gr
 I have worked with the Chrome developer tool a lot and I've managed to overwrite the bootstrap code to create my desired design, also slowly Google search becomes my BFF. God bless the devs community!
 
 
-Here is the live URL: 
+Here is the live URL: https://alinatca.github.io/bootstrap-portfolio/
+
+Preview the website below: Preview the website below: ![website-layout](website-preview.png)
 
 
 # Things I learned
